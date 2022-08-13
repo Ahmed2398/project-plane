@@ -4,5 +4,5 @@ module.exports = defineConfig({
 })
 
 module.exports = {
-  publicPath: process.env.NODE_ENV === "project-plane" ? "/REPO_NAME/" : "/",
+  publicPath: process.env.NODE_ENV === "production" ? "/project-plane/" : "/",
 };
